@@ -14,3 +14,8 @@
 - `app` is `express()`
 - `server` is `http.createServer()` with `app` passed in
 - `server.listen()` with a port of choice passed in
+
+## step-02
+- `npm install --save mongoose`
+- require in `mongoose`
+- `mongoose.connect()` with url of localhost db and `{ useNewUrlParser: true }`
